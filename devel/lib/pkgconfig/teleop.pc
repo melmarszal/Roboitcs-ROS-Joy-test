@@ -1,0 +1,8 @@
+prefix=/home/mmarszal/catkin_ws/devel
+
+Name: teleop
+Description: Description of teleop
+Version: 0.0.0
+Cflags: -I/home/mmarszal/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs joy message_runtime

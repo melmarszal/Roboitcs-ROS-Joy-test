@@ -1,0 +1,17 @@
+\subsubsection usage Usage
+\verbatim
+<node name="motor_control" pkg="motor_control" type="motor_control">
+  <param name="inverted" type="bool" value="False" />
+  <param name="peak_voltage" type="double" value="12.0" />
+  <param name="pot" type="bool" value="False" />
+  <param name="invert_sensor" type="bool" value="False" />
+  <param name="cont_current" type="int" value="30" />
+  <param name="peak_current_dur" type="int" value="100" />
+  <param name="brake_mode" type="bool" value="True" />
+  <param name="P" type="double" value="0.0" />
+  <param name="I" type="double" value="0.0" />
+  <param name="D" type="double" value="0.0" />
+  <param name="F" type="double" value="0.0" />
+</node>
+\endverbatim
+

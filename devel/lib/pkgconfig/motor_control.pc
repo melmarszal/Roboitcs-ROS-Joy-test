@@ -1,0 +1,8 @@
+prefix=/home/mmarszal/catkin_ws/devel
+
+Name: motor_control
+Description: Description of motor_control
+Version: 1.0.0
+Cflags: -I/home/mmarszal/catkin_ws/devel/include -I/home/mmarszal/catkin_ws/src/motor_control/include
+Libs: -L${prefix}/lib -lCTRE_Phoenix -lCTRE_PhoenixCCI -lCTRE_PhoenixPlatformLinuxSocketCan -lCTRE_PhoenixCanutils
+Requires: roscpp geometry_msgs dynamic_reconfigure roslaunch

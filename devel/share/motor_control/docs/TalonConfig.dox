@@ -1,0 +1,16 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~inverted" : \b [bool] Inverted min: False, default: False, max: True
+- \b "~peak_voltage" : \b [double] Peak Voltage min: 0.0, default: 12.0, max: 28.0
+- \b "~pot" : \b [bool] Potentiometer min: False, default: False, max: True
+- \b "~invert_sensor" : \b [bool] Invert Sensor min: False, default: False, max: True
+- \b "~cont_current" : \b [int] Continuous Current Limit (A) min: 0, default: 30, max: 60
+- \b "~peak_current_dur" : \b [int] Peak Current Duration (ms) min: 0, default: 100, max: 2000
+- \b "~brake_mode" : \b [bool] Brake Mode min: False, default: True, max: True
+- \b "~P" : \b [double] P min: 0.0, default: 0.0, max: 100000.0
+- \b "~I" : \b [double] I min: 0.0, default: 0.0, max: 100000.0
+- \b "~D" : \b [double] D min: 0.0, default: 0.0, max: 100000.0
+- \b "~F" : \b [double] F min: 0.0, default: 0.0, max: 100000.0
+

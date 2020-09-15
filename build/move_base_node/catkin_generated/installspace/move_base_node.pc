@@ -1,0 +1,8 @@
+prefix=/home/mmarszal/catkin_ws/install
+
+Name: move_base_node
+Description: Description of move_base_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/mmarszal/catkin_ws/devel
+
+Name: robot_smach
+Description: Description of robot_smach
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

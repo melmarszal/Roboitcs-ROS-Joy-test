@@ -1,0 +1,8 @@
+prefix=/home/mmarszal/catkin_ws/install
+
+Name: excavation
+Description: Description of excavation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
